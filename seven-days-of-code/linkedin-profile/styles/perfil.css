@@ -1,0 +1,80 @@
+article.perfil {
+  margin-bottom: 8px;
+}
+
+div.background-perfil {
+  background: url(../images/bd-perfil.png) no-repeat center;
+  width: 780px;
+  height: 230px;
+}
+
+img.foto-perfil {
+  border-radius: 50%;
+  border: 4px solid var(--fundo-card);
+  height: 160px;
+  width: 160px;
+  margin: -115px 0 0px 24px;
+}
+
+div.info-perfil {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 8px 24px 24px;
+}
+
+div.dados-info-perfil h1 {
+  color: var(--texto-principal);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+div.dados-info-perfil p {
+  color: var(--texto-secundario);
+  margin: 4px 0;
+}
+
+span.info {
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--primario);
+}
+
+div.dados-info-perfil a {
+  display: inline-block;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 4px;
+  padding: 6px 29px;
+  text-align: center;
+  text-decoration: none;
+}
+
+div.dados-info-perfil a.btn-message {
+  color: #000000a2;
+  background-color: var(--primario);
+}
+
+div.dados-info-perfil a.btn-more {
+  padding: 6px 45px;
+  color: var(--primario);
+  background-color: transparent;
+  border: 1px solid var(--primario);
+}
+
+div.dados-empresa-perfil {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+div.dados-empresa-perfil div {
+  display: flex;
+  align-items: center;
+}
+
+div.dados-empresa-perfil h2 {
+  margin-left: 6px;
+}

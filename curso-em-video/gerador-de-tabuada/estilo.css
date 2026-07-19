@@ -1,0 +1,50 @@
+body {
+  background-color: #61443a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: normal;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+a {
+  color: #392d24;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    padding: 0 1rem;
+  }
+
+  section {
+    max-width: 300px;
+  }
+
+  input {
+    width: 100px;
+  }
+}

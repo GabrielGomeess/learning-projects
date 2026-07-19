@@ -1,0 +1,67 @@
+section.suggestions-card {
+  grid-column: 4;
+}
+
+aside.suggestions-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  background-color: var(--fundo-card);
+  border-radius: 16px;
+  padding: 16px 16px;
+}
+
+aside.second-aside {
+  margin-top: 8px;
+}
+
+div.suggestions-person {
+  margin-bottom: 5px;
+}
+
+aside h2 {
+  color: var(--texto-principal);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+aside div.suggestions-person div img {
+  width: 48px;
+  height: 48px;
+  margin-right: 6px;
+}
+
+aside div.suggestions-person div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 7px;
+}
+
+aside div.suggestions-person div div.dados-person {
+  display: flex;
+  flex-direction: column;
+}
+
+div.dados-person h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+div.dados-person p {
+  color: var(--texto-secundario);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+a.btn-message-aside {
+  border: 1px solid var(--texto-principal);
+  border-radius: 16px;
+  color: var(--texto-principal);
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 55px;
+  padding: 7px 16px;
+  text-decoration: none;
+}

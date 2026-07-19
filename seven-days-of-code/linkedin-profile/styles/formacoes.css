@@ -1,0 +1,40 @@
+article.formacao {
+  padding: 24px;
+  margin: 8px 0;
+}
+
+div.formacao-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+div.formacao-container img {
+  width: 48px;
+  height: 48px;
+}
+
+div.formacao-container .dados-instituicao p {
+  line-height: 16px;
+}
+
+div.formacao-container .dados-instituicao span {
+  line-height: 16px;
+}
+
+/* ESTILOS PARA ARTICLE IDIOMAS */
+
+article.idiomas {
+  padding: 24px;
+  margin-bottom: 8px;
+}
+
+article.idiomas .dados-idioma {
+  margin-top: 8px;
+}
+
+article.idiomas hr {
+  margin: 12px 0;
+  border-color: var(--texto-secundario);
+}

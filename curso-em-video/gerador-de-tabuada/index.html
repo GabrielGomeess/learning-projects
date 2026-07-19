@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="estilo.css" />
+
+    <title>Gerador de Tabuada</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tabuada</h1>
+    </header>
+
+    <section>
+      <div>
+        <p>
+          <label for="txtn">Número: </label>
+          <input type="num" name="number" id="txtn" />
+
+          <input type="button" value="Gerar Tabuada" onclick="gerarTabuada()" />
+        </p>
+      </div>
+
+      <div>
+        <p>
+          <select name="tabuada" id="seltab" size="10">
+            <option>Digite um número acima</option>
+          </select>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/GabrielGomeess">Gabriel Gomes</a> para o
+        &copy; CursoEmVideo
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

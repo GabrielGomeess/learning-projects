@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+:root {
+  /*Text colors*/
+  --cor01: hsl(0, 0%, 100%);
+  --cor02: hsla(0, 0%, 100%, 0.75);
+  --cor03: hsla(0, 0%, 100%, 0.6);
+
+  /*Website colors*/
+  --cor04: hsl(277, 64%, 61%);
+  --cor05: hsl(244, 37%, 16%);
+  --cor06: hsl(233, 47%, 7%);
+
+  --fonte-titulo: "Lexend Deca", sans-serif;
+  --fonte-texto: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cor06);
+  color: var(--cor01);
+  font-family: var(--fonte-texto);
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section {
+  background-color: var(--cor05);
+  border-radius: 10px;
+  max-width: min(100% - 2rem, 20.438rem);
+  overflow: hidden;
+}
+
+picture {
+  display: block;
+  position: relative;
+  z-index: 0;
+}
+
+picture::after {
+  position: absolute;
+  content: "";
+  background-color: hsla(277, 64%, 61%, 0.45);
+  inset: 0;
+  z-index: 1;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+article {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.15;
+  text-align: center;
+}
+
+strong {
+  color: var(--cor04);
+  font-weight: 600;
+}
+
+.description {
+  color: var(--cor03);
+  font-size: 0.938rem;
+  line-height: 1.6;
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.box > p {
+  color: var(--cor03);
+  font-family: var(--fonte-titulo);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+@media screen and (min-width: 64rem) {
+  section {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: min(100% - 2rem, 69.375rem);
+  }
+
+  img {
+    height: 100%;
+  }
+
+  article {
+    width: 35rem;
+    padding: 4.5rem 5rem 4.5rem 4.5rem;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: start;
+  }
+
+  .description {
+    font-size: 0.875rem;
+    line-height: 1.7;
+    max-width: 22.5rem;
+    margin: 1.75rem 0 4.5rem;
+    text-align: start;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3.5rem;
+  }
+
+  .box {
+    align-items: start;
+  }
+
+  .box > p {
+    font-weight: 400;
+  }
+}

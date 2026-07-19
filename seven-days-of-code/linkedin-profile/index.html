@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Perfil de LinkedIn</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <img src="images/icone-linkedin.svg" alt="Logo da LinkedIn" />
+
+        <input
+          type="search"
+          name="navBar"
+          id="navBar"
+          placeholder="Pesquisar"
+        />
+      </div>
+
+      <nav>
+        <a href="#">
+          <img src="images/icone-home.svg" alt="Icone de Início" />
+          Início
+        </a>
+
+        <a href="#">
+          <img src="images/icone-minha-rede.svg" alt="Icone de Minhas Redes" />
+          Minha Rede
+        </a>
+
+        <a href="#">
+          <img
+            class="vagas"
+            src="images/icone-vagas.svg"
+            alt="Icone de Vagas"
+          />
+          Vagas
+        </a>
+
+        <a href="#">
+          <img src="images/icone-mensagens.svg" alt="Icone de Mensagens" />
+          Mensagens
+        </a>
+
+        <a href="#">
+          <img
+            src="images/icone-notificacoes.svg"
+            alt="Icone de Notificações"
+          />
+          Notificações
+        </a>
+
+        <hr />
+
+        <a href="#">
+          <img src="images/icone-solucoes.svg" alt="Icone de Soluções" />
+          Soluções
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="principal">
+        <article class="perfil">
+          <div class="background-perfil"></div>
+
+          <img
+            class="foto-perfil"
+            src="images/foto-perfill.jpeg"
+            alt="Foto de Perfil do LinkedIn"
+          />
+
+          <div class="info-perfil">
+            <div class="dados-info-perfil">
+              <h1>Gabriel Gomes</h1>
+
+              <h2>
+                Desenvolvedor | HTML | CSS | Javascript | Typescript | Node
+              </h2>
+
+              <p>Fala sobre #javascript, #frontend, #reactjs e #backend</p>
+
+              <p>
+                São Paulo, SP, Brasil ·
+                <span class="info">informações de contato</span>
+              </p>
+
+              <p>
+                <span class="info">10 Seguidores</span> ·
+                <span class="info">23 Conexões</span>
+              </p>
+
+              <a class="btn-message" href="#">Mensagem</a>
+              <a href="#" class="btn-more">Mais</a>
+            </div>
+
+            <div class="dados-empresa-perfil">
+              <div>
+                <img src="images/empresa-icon.svg" alt="Imagem da Empresa" />
+
+                <h2>Empresa</h2>
+              </div>
+
+              <div>
+                <img
+                  src="images/institute-icon.svg"
+                  alt="Imagem da Instituição de Ensino"
+                />
+
+                <h2>Instituição de Ensino</h2>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="destaques">
+          <h2 class="subtitulo">Destaques</h2>
+
+          <article class="destaques-container">
+            <div class="destaques-box">
+              <span class="titulo">Publicação</span>
+
+              <p>Legenda da primeira publicaçã...</p>
+
+              <img
+                src="images/publicacao-1.jpg"
+                alt="Imagem de uma publicação feita"
+              />
+
+              <footer>
+                <div>
+                  <img
+                    class="reacoes"
+                    src="images/Reações.svg"
+                    alt="Icone de reações"
+                  />
+
+                  <span>124</span>
+                </div>
+
+                <span>5 comentários</span>
+              </footer>
+            </div>
+
+            <div class="destaques-box">
+              <span class="titulo">Publicação</span>
+
+              <p>Legenda da segunda publicaçã...</p>
+
+              <img
+                src="images/publicacao-2.jpg"
+                alt="Imagem de uma publicação feita"
+              />
+
+              <footer>
+                <div>
+                  <img
+                    class="reacoes"
+                    src="images/Reações.svg"
+                    alt="Icone de reações"
+                  />
+
+                  <span>237</span>
+                </div>
+
+                <span>15 comentários</span>
+              </footer>
+            </div>
+
+            <div class="destaques-box">
+              <span class="titulo">Publicação</span>
+
+              <p>Legenda da terceira publicaçã...</p>
+
+              <img
+                src="images/publicacao-3.jpg"
+                alt="Imagem de uma publicação feita"
+              />
+
+              <footer>
+                <div>
+                  <img
+                    class="reacoes"
+                    src="images/Reações.svg"
+                    alt="Icone de reações"
+                  />
+
+                  <span>67</span>
+                </div>
+
+                <span>7 comentários</span>
+              </footer>
+            </div>
+          </article>
+        </article>
+
+        <article class="atividades">
+          <h2 class="subtitulo atividades">Atividades</h2>
+
+          <span class="info atividades">10 Seguidores</span>
+
+          <div class="atividades-container first-container">
+            <span>Nome Sobrenome publicou isso · 1 sem</span>
+
+            <div class="atividades-preview">
+              <img
+                src="images/publicacao-1.jpg"
+                alt="Imagem de uma publicação feita"
+              />
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu...
+              </p>
+            </div>
+
+            <footer>
+              <div>
+                <img
+                  class="reacoes"
+                  src="images/Reações.svg"
+                  alt="Icone de reações"
+                />
+
+                <span>124</span>
+              </div>
+
+              <span>5 comentários</span>
+            </footer>
+          </div>
+
+          <div class="atividades-container">
+            <span>Nome Sobrenome publicou isso · 3 sem</span>
+
+            <div class="atividades-preview">
+              <img
+                src="images/publicacao-2.jpg"
+                alt="Imagem de uma publicação feita"
+              />
+
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu...
+              </p>
+            </div>
+
+            <footer>
+              <div>
+                <img
+                  class="reacoes"
+                  src="images/Reações.svg"
+                  alt="Icone de reações"
+                />
+
+                <span>237</span>
+              </div>
+
+              <span>15 comentários</span>
+            </footer>
+          </div>
+
+          <hr />
+
+          <a href="#">Exibir todas as atividades</a>
+        </article>
+
+        <article class="sobre">
+          <h2 class="subtitulo">Sobre</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur
+          </p>
+        </article>
+
+        <article class="experiencias">
+          <h2 class="subtitulo">Experiências</h2>
+
+          <div class="empresa-container">
+            <img src="images/empresa-icon.svg" alt="" />
+
+            <div class="dados-empresa">
+              <h3>Empresa</h3>
+              <span>1 a 7 m</span>
+            </div>
+          </div>
+
+          <ul class="cargos">
+            <li class="cargo">
+              <h3>Fullstack Developer</h3>
+              <span class="jornada">Tempo integral</span>
+              <span class="dados-cargo">jan de 2022 - o momento • 5 meses</span>
+              <span class="dados-cargo">Cidade, estado e país</span>
+            </li>
+
+            <li class="cargo">
+              <h3>Fullstack Developer (JR)</h3>
+              <span class="jornada">Tempo integral</span>
+              <span class="dados-cargo"
+                >jun de 2021 - jan de 2022 • 8 meses</span
+              >
+              <span class="dados-cargo">Cidade, estado e país</span>
+            </li>
+
+            <li class="cargo">
+              <h3>Front-end Developer</h3>
+              <span class="jornada">Meio período</span>
+              <span class="dados-cargo"
+                >jan de 2021 - jun de 2021 • 6 meses</span
+              >
+              <span class="dados-cargo">Cidade, estado e país</span>
+            </li>
+          </ul>
+        </article>
+
+        <article class="formacao">
+          <h2 class="subtitulo">Formação Acadêmica</h2>
+
+          <div class="formacao-container">
+            <img src="images/institute-icon.svg" alt="Imagem da Instituição" />
+
+            <div class="dados-instituicao">
+              <h3>Instituição de Ensino</h3>
+
+              <p>Nome do Curso</p>
+
+              <span>2015 a 2019</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="idiomas">
+          <h2 class="subtitulo">Idiomas</h2>
+
+          <div class="dados-idioma">
+            <h3>Português</h3>
+            <span>Fluente ou nativo</span>
+          </div>
+
+          <hr />
+
+          <dados class="dados-idioma">
+            <h3>Inglês</h3>
+            <span>Intermediário</span>
+          </dados>
+        </article>
+      </section>
+
+      <section class="suggestions-card">
+        <aside class="suggestions-box">
+          <h2>As pessoas também viram</h2>
+
+          <div class="suggestions-person">
+            <div>
+              <img
+                src="images/foto-pessoa01.png"
+                alt="Foto de Perfil de uma pessoa sugerida"
+              />
+
+              <div class="dados-person">
+                <h3>Nome e Sobrenome</h3>
+
+                <p>Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+              </div>
+            </div>
+
+            <a href="#" class="btn-message-aside">Enviar mensagem</a>
+          </div>
+
+          <div class="suggestions-person">
+            <div>
+              <img
+                src="images/foto-pessoa02.png"
+                alt="Foto de Perfil de uma pessoa sugerida"
+              />
+
+              <div class="dados-person">
+                <h3>Nome e Sobrenome</h3>
+
+                <p>Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+              </div>
+            </div>
+
+            <a href="#" class="btn-message-aside">Enviar mensagem</a>
+          </div>
+          <div class="suggestions-person">
+            <div>
+              <img
+                src="images/foto-pessoa03.png"
+                alt="Foto de Perfil de uma pessoa sugerida"
+              />
+
+              <div class="dados-person">
+                <h3>Nome e Sobrenome</h3>
+
+                <p>Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+              </div>
+            </div>
+
+            <a href="#" class="btn-message-aside">Enviar mensagem</a>
+          </div>
+
+          <div class="suggestions-person">
+            <div>
+              <img
+                src="images/foto-pessoa04.png"
+                alt="Foto de Perfil de uma pessoa sugerida"
+              />
+
+              <div class="dados-person">
+                <h3>Nome e Sobrenome</h3>
+
+                <p>Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+              </div>
+            </div>
+
+            <a href="#" class="btn-message-aside">Enviar mensagem</a>
+          </div>
+
+          <div class="suggestions-person">
+            <div>
+              <img
+                src="images/foto-pessoa05.png"
+                alt="Foto de Perfil de uma pessoa sugerida"
+              />
+
+              <div class="dados-person">
+                <h3>Nome e Sobrenome</h3>
+
+                <p>Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+              </div>
+            </div>
+
+            <a href="#" class="btn-message-aside">Enviar mensagem</a>
+          </div>
+        </aside>
+
+        <aside class="suggestions-box second-aside">
+          <h2>Pessoas que talvez você conheça</h2>
+
+          <div class="suggestions-person">
+            <div>
+              <img
+                src="images/foto-pessoa06.png"
+                alt="Foto de Perfil de uma pessoa sugerida"
+              />
+
+              <div class="dados-person">
+                <h3>Nome e Sobrenome</h3>
+
+                <p>Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+              </div>
+            </div>
+            <a href="#" class="btn-message-aside">Enviar mensagem</a>
+          </div>
+
+          <div class="suggestions-person">
+            <div>
+              <img
+                src="images/foto-pessoa01.png"
+                alt="Foto de Perfil de uma pessoa sugerida"
+              />
+
+              <div class="dados-person">
+                <h3>Nome e Sobrenome</h3>
+
+                <p>Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+              </div>
+            </div>
+
+            <a href="#" class="btn-message-aside">Enviar mensagem</a>
+          </div>
+
+          <div class="suggestions-person">
+            <div>
+              <img
+                src="images/foto-pessoa02.png"
+                alt="Foto de Perfil de uma pessoa sugerida"
+              />
+
+              <div class="dados-person">
+                <h3>Nome e Sobrenome</h3>
+
+                <p>Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+              </div>
+            </div>
+
+            <a href="#" class="btn-message-aside">Enviar mensagem</a>
+          </div>
+
+          <div class="suggestions-person">
+            <div>
+              <img
+                src="images/foto-pessoa04.png"
+                alt="Foto de Perfil de uma pessoa sugerida"
+              />
+
+              <div class="dados-person">
+                <h3>Nome e Sobrenome</h3>
+
+                <p>Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+              </div>
+            </div>
+
+            <a href="#" class="btn-message-aside">Enviar mensagem</a>
+          </div>
+
+          <div class="suggestions-person">
+            <div>
+              <img
+                src="images/foto-pessoa03.png"
+                alt="Foto de Perfil de uma pessoa sugerida"
+              />
+
+              <div class="dados-person">
+                <h3>Nome e Sobrenome</h3>
+
+                <p>Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+              </div>
+            </div>
+
+            <a href="#" class="btn-message-aside">Enviar mensagem</a>
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>

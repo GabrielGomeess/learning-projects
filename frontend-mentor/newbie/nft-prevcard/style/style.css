@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --cor01: hsl(0, 0%, 100%);
+  --cor02: hsl(178, 100%, 50%);
+  --cor03: hsl(215, 51%, 70%);
+  --cor04: hsl(215, 32%, 27%);
+  --cor05: hsl(216, 50%, 16%);
+  --cor06: hsl(217, 54%, 11%);
+
+  --text-font: "Outfit", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cor06);
+  font-family: var(--text-font);
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section {
+  background-color: var(--cor05);
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px 5px hsl(215, 54%, 7%);
+  max-width: min(100% - 2rem, 20.438rem);
+  padding: 1.5rem;
+}
+
+figure {
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+figure::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+}
+
+figure:hover::after {
+  background: url(../assets/icon-view.svg) center no-repeat
+    hsla(178, 100%, 50%, 0.315);
+}
+
+.ethereum-img {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+h1 {
+  color: var(--cor01);
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin: 1.25rem 0 1rem;
+}
+
+h1:hover {
+  color: var(--cor02);
+  cursor: pointer;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--cor03);
+}
+
+.description {
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.box-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0 0.75rem;
+}
+
+.box-info-ethereum {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.value-ethereum > p {
+  color: var(--cor02);
+  font-weight: 500;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--cor04);
+  margin-bottom: 1rem;
+}
+
+.box-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-img {
+  max-width: 2rem;
+  max-height: 2rem;
+  border: 1px solid var(--cor01);
+  border-radius: 50%;
+}
+
+a {
+  color: var(--cor01);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--cor02);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 46.875rem) {
+  section {
+    max-width: min(100% - 2rem, 21.875rem);
+    padding-bottom: 1.75rem;
+  }
+
+  .description {
+    font-size: 1.1rem;
+  }
+
+  .box-info {
+    margin: 1.25rem 0 1.5rem;
+  }
+}

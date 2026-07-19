@@ -1,0 +1,68 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100vw;
+
+  background-color: var(--fundo-card);
+}
+
+.navbar {
+  display: flex;
+  gap: 8px;
+}
+
+.navbar input {
+  background-color: var(--input);
+  border: none;
+  border-radius: 4px;
+  color: var(--texto-principal);
+  height: 34px;
+  width: 280px;
+}
+
+input::placeholder {
+  color: var(--texto-principal);
+  font-size: 14px;
+  font-family: var(--fonte-texto);
+  padding: 10px;
+  padding-left: 40px;
+
+  background: url(../images/icone-busca.svg) no-repeat;
+  background-position: 8px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+nav a {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  color: var(--texto-principal);
+  font-size: 12px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+nav a img {
+  width: max-content;
+}
+
+img.vagas {
+  margin-bottom: 4px;
+}
+
+nav hr {
+  border-color: var(--texto-secundario);
+  height: 53px;
+}

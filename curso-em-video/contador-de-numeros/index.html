@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Contador</title>
+  </head>
+  <body>
+    <header>
+      <h1>Vamos contar</h1>
+    </header>
+
+    <section>
+      <div id="dados">
+        <p>
+          <label for="txti">Início: </label>
+          <input
+            type="number"
+            name="inicio"
+            id="txti"
+            placeholder="Digite o primeiro número"
+          />
+        </p>
+
+        <p>
+          <label for="txtf">Fim: </label>
+          <input
+            type="number"
+            name="fim"
+            id="txtf"
+            placeholder="Digite o último número"
+          />
+        </p>
+
+        <p>
+          <label for="txtp">Passo: </label>
+          <input
+            type="number"
+            name="passo"
+            id="txtp"
+            placeholder="De quanto em quanto?"
+          />
+        </p>
+
+        <p>
+          <input type="button" value="Contar" onclick="contar()" />
+        </p>
+      </div>
+
+      <div id="res">
+        <p>Preparando contagem ...</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Desenvolvido por
+        <a href="https://github.com/GabrielGomeess">Gabriel Gomes</a> para o
+        &copy; CursoEmVideo
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

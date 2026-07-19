@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgoldenrodyellow;
+    min-height: 100dvh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border-color: darkred;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+a {
+    color: darkred;
+}
+
+li{
+    line-height: 1.5;
+    margin-left: 20px;
+}

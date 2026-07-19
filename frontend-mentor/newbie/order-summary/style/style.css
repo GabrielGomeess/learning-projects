@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --cor01: hsl(0, 0%, 100%);
+  --cor02: hsl(225, 100%, 98%);
+  --cor03: hsl(225, 100%, 94%);
+  --cor04: hsl(224, 23%, 55%);
+  --cor05: hsl(245, 75%, 52%);
+  --cor06: hsl(223, 47%, 23%);
+
+  --text-font: "Red Hat Display", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../assets/pattern-background-mobile.svg) center no-repeat
+    var(--cor03);
+  background-size: 100% auto;
+  font-family: var(--text-font);
+  font-size: 1rem;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section {
+  background-color: var(--cor01);
+  border-radius: 20px;
+  box-shadow: 0 20px 25px hsla(223, 47%, 23%, 0.281);
+  max-width: min(100% - 2rem, 20.438rem);
+  overflow: hidden;
+}
+
+picture > img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.text-container {
+  padding: 1.5rem;
+}
+
+h1 {
+  color: var(--cor06);
+  font-size: 1.375rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.app-description {
+  color: var(--cor04);
+  font-size: 0.975rem;
+  line-height: 1.6;
+  text-align: center;
+  margin: 1rem 0 1.2rem;
+  padding: 0 0.875rem;
+}
+
+.box-plan {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+
+  background-color: var(--cor02);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.plan-type {
+  color: var(--cor06);
+  font-size: 0.875rem;
+  font-weight: 900;
+  margin-bottom: 2px;
+}
+
+.plan-price {
+  color: var(--cor04);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.btn-change {
+  color: var(--cor05);
+  font-size: 0.938rem;
+  font-weight: 900;
+  margin-left: auto;
+  transition: 0.2s;
+}
+
+.btn-change:hover {
+  color: var(--cor06);
+}
+
+.btn-pay {
+  display: block;
+
+  background-color: var(--cor05);
+  border-radius: 8px;
+  box-shadow: 0 16px 18px hsla(223, 47%, 23%, 0.281);
+
+  color: var(--cor01);
+  font-size: 0.938rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+
+  margin: 1.5rem 0;
+  padding: 15px;
+}
+
+.btn-pay:hover {
+  background-color: var(--cor06);
+}
+
+.btn-cancel {
+  display: block;
+  color: var(--cor04);
+  font-size: 0.938rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.btn-cancel:hover {
+  color: var(--cor06);
+}
+
+@media screen and (min-width: 64rem) {
+  body {
+    background: url(../assets/pattern-background-desktop.svg) top center
+      no-repeat var(--cor03);
+    background-size: 100% auto;
+  }
+
+  section {
+    max-width: min(100% - 2rem, 28.125rem);
+  }
+
+  .text-container {
+    padding: 2.5rem 3rem 3rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .app-description {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  .box-plan {
+    padding: 1.5rem;
+  }
+
+  .plan-type,
+  .plan-price {
+    font-size: 1rem;
+  }
+
+  .btn-change,
+  .btn-cancel,
+  .btn-pay {
+    font-size: 1rem;
+  }
+
+  .btn-pay {
+    margin: 2rem 0;
+  }
+}

@@ -1,0 +1,46 @@
+body {
+  background-image: linear-gradient(#42047e, #07f49e);
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  font-weight: normal;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #42047e;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    padding: 0 1rem;
+  }
+
+  section {
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F9F9F9;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+img{
+    width: 100px;
+}
+
+h1{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+form{
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+fieldset{
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+legend{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 5px; 
+}
+
+p{
+    font-weight: bold;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+textarea{
+    min-height: 100px;
+}
+
+input[type="tel"], input[type="file"]{
+    margin-bottom: 0;
+}
+
+small{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    width: auto;
+    margin: 15px 0 20px 20px;
+}
+
+input[type="color"]{
+    width: 50px;
+    padding: 0 5px;
+}
+
+input:invalid, select:invalid, textarea:invalid{
+    border-color: red;
+}
+
+input:valid, select:valid, textarea:valid{
+    border-color: green;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+button[type="submit"]:hover{
+    background-color: green;
+    color: #FFFFFF;
+}
+
+button[type="reset"]:hover{
+    background-color: orangered;
+    color: #FFFFFF;
+}

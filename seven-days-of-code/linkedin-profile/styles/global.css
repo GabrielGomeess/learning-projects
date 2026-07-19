@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fundo-escuro: #000;
+  --fundo-card: #1d2226;
+  --fundo-card-ativo: hsla(0, 0%, 100%, 0.12);
+
+  --fonte-texto: "Roboto", sans-serif;
+
+  --texto-principal: hsla(0, 0%, 100%, 0.9);
+  --texto-secundario: hsla(0, 0%, 100%, 0.6);
+  --texto-escuro: hsla(0, 0%, 0%, 0.75);
+
+  --input: #38434f;
+  --primario: #70b5f9;
+  --positivo: #3ec786;
+}
+
+body {
+  background-color: var(--fundo-escuro);
+  font-family: var(--fonte-texto);
+  width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto 780px 32px 320px auto;
+  margin-top: 80px;
+}
+
+section.principal {
+  grid-column: 2 / 3;
+  align-self: start;
+}
+
+article {
+  background-color: var(--fundo-card);
+  border-radius: 16px;
+}
+
+article.perfil h2 {
+  color: var(--texto-principal);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+h2.subtitulo {
+  color: var(--texto-principal);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h3 {
+  color: var(--texto-principal);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+p {
+  color: var(--texto-principal);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+span {
+  color: var(--texto-secundario);
+  font-size: 14px;
+}
+
+/* Estilos para Article Sobre */
+
+article.sobre {
+  margin: 8px 0;
+  padding: 24px;
+}
+
+article.sobre p {
+  margin-top: 8px;
+}

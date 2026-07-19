@@ -1,0 +1,50 @@
+article.atividades {
+  margin-top: 8px;
+}
+
+h2.atividades,
+span.atividades {
+  padding: 16px 0 0 24px;
+}
+
+div.atividades-container {
+  margin-top: 12px;
+  margin: 0 24px;
+}
+
+div.first-container {
+  border-bottom: 1px solid var(--texto-secundario);
+}
+
+div.atividades-container span {
+  line-height: 20px;
+}
+
+div.atividades-preview {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin: 8px 0;
+}
+
+div.atividades-preview img {
+  width: 64px;
+  height: 64px;
+}
+
+article.atividades hr {
+  border-color: var(--texto-secundario);
+}
+
+article.atividades a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--texto-secundario);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 0;
+  text-decoration: none;
+}

@@ -1,0 +1,71 @@
+article.experiencias{
+    padding: 24px;
+}
+
+div.empresa-container{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 8px 0 4px;
+}
+
+div.empresa-container img{
+    width: 48px;
+    height: 48px;
+}
+
+div.empresa-container div.dados-empresa span{
+    color: var(--texto-secundario);
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+article.experiencias ul{
+    list-style: none;
+}
+
+article.experiencias ul li.cargo {
+    position: relative;
+    left: 54px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+}
+
+ul li.cargo:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+li.cargo::before, li.cargo::after {
+    content: "";
+    position: absolute;
+    transform: translate(-35px, 50%);
+}
+
+li.cargo::before {
+    background-color: var(--texto-principal);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
+
+li.cargo::after {
+    background-color: var(--texto-secundario);
+    left: 4px;
+    top: -5%;
+    width: 1px;
+    height: 48px;
+}
+
+li.cargo span.jornada{
+    color: var(--texto-principal);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+li.cargo span.dados-cargo{
+    color: var(--texto-secundario);
+    font-size: 14px;
+    line-height: 16px;
+}

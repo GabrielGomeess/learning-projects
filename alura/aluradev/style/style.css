@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+:root {
+
+    /* Neutral Colors */
+    --darkgray-color: #141414;
+    --white-color: #ffffff;
+
+    /* Mac Colors */
+    --green-color: #27C93F;
+    --yellow-color: #FFBD2E;
+    --red-color: #FF5F56;
+
+    /* Blue Colors */
+    
+    --darkblue-color: #051D3B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

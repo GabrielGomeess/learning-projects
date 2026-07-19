@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+:root {
+  --cor01: hsl(330, 100%, 98%);
+  --cor02: hsl(332, 51%, 32%);
+  --cor03: hsl(14, 45%, 36%);
+  --cor04: hsl(30, 54%, 90%);
+  --cor05: hsl(30, 18%, 87%);
+  --cor06: hsl(30, 10%, 34%);
+  --cor07: hsl(24, 5%, 18%);
+  --cor08: hsl(0, 0%, 100%);
+
+  --fonte-titulo: "Young Serif", serif;
+  --fonte-texto: "Outfit", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cor04);
+  font-family: var(--fonte-texto);
+  min-height: 100vh;
+}
+
+main {
+  background-color: var(--cor08);
+  max-width: 375px;
+}
+
+section {
+  padding: 2rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  color: var(--cor07);
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 1.25rem;
+}
+
+p {
+  color: var(--cor06);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.box-preparation {
+  background-color: var(--cor01);
+  border-radius: 8px;
+  margin: 2rem 0;
+  padding: 1.4rem;
+}
+
+.subtitle {
+  color: var(--cor03);
+  font-family: var(--fonte-titulo);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.75rem;
+}
+
+.subtitle-preparation {
+  color: var(--cor02);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+ul.list-preparation {
+  list-style-position: outside;
+  padding-left: 1.5rem;
+  line-height: 1.5;
+}
+
+li.item-preparation {
+  color: var(--cor06);
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+li.item-preparation::marker {
+  color: var(--cor02);
+}
+
+strong {
+  color: var(--cor06);
+  font-weight: 700;
+}
+
+.ingredients-list,
+.instructions-list {
+  padding-left: 1.5rem;
+}
+
+.ingredients-items {
+  line-height: 1.85;
+}
+
+.instructions-items {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.ingredients-items,
+.instructions-items {
+  color: var(--cor06);
+  padding-left: 0.5rem;
+}
+
+.ingredients-items::marker,
+.instructions-items::marker {
+  color: var(--cor03);
+}
+
+.box-grid {
+  margin-top: 1.25rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 1.75rem;
+  margin: 0.5rem 0;
+}
+
+.nutrient {
+  color: var(--cor06);
+  font-weight: 500;
+}
+
+.qtd {
+  color: var(--cor03);
+  font-weight: 700;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--cor05);
+}
+
+.main-hr {
+  margin: 1.4rem 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6.5rem 0;
+  }
+
+  main {
+    max-width: 700px;
+    border-radius: 24px;
+    padding: 1.875rem;
+  }
+
+  img {
+    border-radius: 12px;
+  }
+
+  section {
+    padding: 2rem 0 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2.subtitle {
+    font-size: 1.75rem;
+  }
+
+  .ingredients-items,
+  .instructions-items {
+    padding-left: 1rem;
+  }
+}

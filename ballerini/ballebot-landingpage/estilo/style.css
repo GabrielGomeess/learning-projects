@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: linear-gradient(to right, #2F2325, #8E5D52);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 96px;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+nav a{
+    font-family: "Sarala", sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main{
+    padding: 10px;
+}
+
+section.primeira-parte{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 0.4px solid #FFF2E7;
+}
+section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo-ballebot{
+    font-family: "Righteous", system-ui;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 64px
+}
+
+.subtitulo-ballebot{
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.botao{
+    width: fit-content;
+    padding: 10px;
+    font-family: 'Sarala', sans-serif;
+    background-color: #ECD6C4;
+    color:#2F2325;
+    font-weight: 400;
+    font-size: 24px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px 0px #00000025;
+}
+
+section.segunda-parte{
+    text-align: center;
+    padding: 50px;
+}
+
+.botao:hover{
+    transition-duration: 1s;
+    color: #8E5D52;
+    box-shadow: 2px 2px 2px #FFF2E7;
+    cursor: pointer;
+}
+
+.titulo-segunda-parte{
+    font-family: "Righteous", system-ui;    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 50px 0px;
+    border-top: 0.4px solid #ECD6C4;
+    width: fit-content;
+    margin: auto;
+    
+}
+
+section p{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px;
+}
+
+strong{
+    font-weight: 700;
+}
+
+footer{
+    border-top: 0.4px solid #FFF2E7;
+    text-align: center;
+    padding: 30px;
+    
+}
+

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --cor01: hsl(0, 0%, 20%);
+  --cor02: hsl(0, 0%, 12%);
+  --cor03: hsl(0, 0%, 8%);
+  --cor04: hsl(75, 94%, 57%);
+  --cor05: hsl(0, 0%, 100%);
+
+  --fonte-texto: "Inter", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--cor03);
+  min-height: 100vh;
+  font-family: var(--fonte-texto);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 384px;
+  padding: 40px;
+  background-color: var(--cor02);
+  border-radius: 12px;
+}
+
+img {
+  display: block;
+  width: 88px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--cor05);
+  margin: 1.5rem 0 0.5rem;
+}
+
+p.location {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--cor04);
+}
+
+p.description {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--cor05);
+  margin: 1.75rem 0 1.5rem;
+}
+
+div.box-links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+a {
+  display: block;
+  background-color: var(--cor01);
+  border-radius: 8px;
+  width: 100%;
+  padding: 12px 0;
+
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--cor05);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  background-color: var(--cor04);
+  color: var(--cor03);
+  cursor: pointer;
+}
