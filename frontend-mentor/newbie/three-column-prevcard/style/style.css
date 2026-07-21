@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: var(--gray);
+  background-color: var(--white);
   min-height: 100dvh;
 }
 
@@ -107,7 +107,7 @@ p {
   section {
     display: flex;
     flex-direction: row;
-    max-width: min(100% - 2rem, 1110px);
+    max-width: min(100% - 2rem, 980px);
   }
 
   main {
@@ -125,6 +125,6 @@ p {
 
   p {
     line-height: 1.9;
-    margin-bottom: 7rem;
+    margin-bottom: 6.75rem;
   }
 }
