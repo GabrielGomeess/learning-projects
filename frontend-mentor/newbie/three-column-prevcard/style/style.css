@@ -107,7 +107,7 @@ p {
   section {
     display: flex;
     flex-direction: row;
-    max-width: min(100% - 2rem, 60rem);
+    max-width: min(100% - 2rem, 61.25rem);
   }
 
   main {
