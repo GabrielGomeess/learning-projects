@@ -99,6 +99,18 @@ In this repository, you will find solutions I developed for Frontend Mentor chal
    </td>
   </tr>
 
+  <tr>
+
+  <td>Three Column - Preview Card</td>
+
+  <td>
+
+  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./newbie/three-column-prevcard/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/frontend-mentor/newbie/three-column-prevcard/)
+
+  </td>
+
+  </tr>
+
 </table>
 
 ### Junior
