@@ -68,7 +68,7 @@ h2 {
 p {
   color: var(--gray);
   font-family: var(--text-font);
-  font-size: 0.969rem;
+  font-size: 0.938rem;
   font-weight: 400;
   line-height: 1.6;
   margin-bottom: 2.25rem;
@@ -107,7 +107,7 @@ p {
   section {
     display: flex;
     flex-direction: row;
-    max-width: min(100% - 2rem, 61.25rem);
+    max-width: min(100% - 2rem, 57.5rem);
   }
 
   main {
@@ -124,7 +124,7 @@ p {
   }
 
   p {
-    line-height: 1.9;
+    line-height: 1.7;
     margin-bottom: 5.15rem;
   }
 }
