@@ -115,7 +115,7 @@ p {
   }
 
   article {
-    padding: 3.75rem 3rem;
+    padding: 2.75rem 3rem 3rem;
   }
 
   h1,
@@ -125,6 +125,6 @@ p {
 
   p {
     line-height: 1.7;
-    margin-bottom: 5.15rem;
+    margin-bottom: 5.75rem;
   }
 }
