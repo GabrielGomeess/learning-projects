@@ -115,16 +115,17 @@ p {
   }
 
   article {
-    padding: 3rem 3rem;
+    padding: 3rem;
   }
 
   h1,
   h2 {
     font-size: 2.5rem;
+    margin-top: 1.75rem;
   }
 
   p {
     line-height: 1.7;
-    margin-bottom: 5.75rem;
+    margin-bottom: 6rem;
   }
 }
