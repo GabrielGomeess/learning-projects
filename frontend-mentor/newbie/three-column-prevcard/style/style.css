@@ -41,7 +41,8 @@ section {
 }
 
 article {
-  padding: 2.25rem 3rem 3rem;
+  flex: 1;
+  padding: 3rem 3.125rem 3rem;
 }
 
 .sedan {
@@ -128,6 +129,6 @@ p {
   p {
     line-height: 1.7;
     font-weight: 400;
-    margin-bottom: 6rem;
+    margin-bottom: 6.25rem;
   }
 }
