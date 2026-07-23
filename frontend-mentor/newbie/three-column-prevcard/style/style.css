@@ -120,12 +120,13 @@ p {
 
   h1,
   h2 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     margin-top: 1.75rem;
   }
 
   p {
     line-height: 1.7;
+    font-weight: 500;
     margin-bottom: 6rem;
   }
 }
