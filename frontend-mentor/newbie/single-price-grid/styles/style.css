@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --wihte: hsl(204, 43%, 93%);
+    --grey: hsl(218, 22%, 67%);
+    --green: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    
+    --font: "Karla", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--wihte);
+    font-family: var(--font);
+    font-size: 1rem;
+    min-height: 100vh;
+}
+
