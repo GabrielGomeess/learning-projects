@@ -1,26 +1,119 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
 
 :root {
-    --wihte: hsl(204, 43%, 93%);
-    --grey: hsl(218, 22%, 67%);
-    --green: hsl(179, 62%, 43%);
-    --yellow: hsl(71, 73%, 54%);
-    
-    --font: "Karla", sans-serif;
+  --white: hsl(0, 0%, 100%);
+  --white-bg: hsl(204, 43%, 93%);
+  --grey: hsl(218, 22%, 67%);
+  --green: hsl(179, 62%, 43%);
+  --yellow: hsl(71, 73%, 54%);
+
+  --font: "Karla", sans-serif;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: var(--wihte);
-    font-family: var(--font);
-    font-size: 1rem;
-    min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: var(--white-bg);
+  font-family: var(--font);
+  font-size: 1rem;
+  min-height: 100vh;
+  padding: 3.5rem 0;
 }
 
+section {
+  display: grid;
+  grid-template-columns: min(100% - 2rem, 327px);
+  place-content: center;
+  min-height: 100vh;
+}
+
+article {
+  padding: 2rem 1.75rem;
+}
+
+.description {
+  background-color: var(--white);
+  border-radius: 8px 8px 0 0;
+}
+
+.price {
+  background-color: var(--green);
+}
+
+.about {
+  background-color: hsla(179, 62%, 43%, 0.685);
+  border-radius: 0 0 8px 8px;
+}
+
+h1 {
+  color: var(--green);
+  font-size: 21px;
+}
+
+h2 {
+  color: var(--white);
+  font-size: 21px;
+  margin-bottom: 1.25rem;
+}
+
+.guarantee {
+  color: var(--yellow);
+  font-weight: 600;
+  margin: 1.5rem 0;
+}
+
+.resume {
+  color: var(--grey);
+  line-height: 1.7;
+  font-size: 14.2px;
+  font-weight: 400;
+}
+
+.box-span {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.price-span {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.time-span {
+  color: var(--white-bg);
+  font-weight: 200;
+}
+
+.benefit-plan {
+  color: var(--white-bg);
+  font-weight: 400;
+  margin-bottom: 1.75rem;
+}
+
+.btn-sign {
+  background-color: var(--yellow);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.199);
+  color: var(--white);
+  font-weight: 600;
+  padding: 15px;
+  text-align: center;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: var(--white-bg);
+  line-height: 1.5;
+}
