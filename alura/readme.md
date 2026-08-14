@@ -1,8 +1,15 @@
 # Alura
 
-In this category, you will find projects I developed during courses I completed at Alura, an online learning platform.
+In this category, you will find projects I developed during courses I completed at Alura, an online learning platform. They are organized by the technologies and concepts learned throughout the courses.
 
-### Projects
+## Projects by Technology 
+
+- [HTML | CSS](#html-|-css)
+- [HTML | CSS | JavaScript](#html-|-css-|-javascript)
+
+## Projects
+
+### HTML | CSS
 
 <table>
   <tr>
@@ -15,24 +22,6 @@ In this category, you will find projects I developed during courses I completed 
     <td>
     
   [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./alurabooks/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/alurabooks/)
-  
-   </td>
-  </tr>
-
-  <tr>
-    <td>Alura Dev</td>
-    <td>
-    
-  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./aluradev/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/aluradev/)
-  
-   </td>
-  </tr>
-
-  <tr>
-    <td>Alura Games</td>
-    <td>
-    
-  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./aluragames/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/aluragames/)
   
    </td>
   </tr>
@@ -61,6 +50,62 @@ In this category, you will find projects I developed during courses I completed 
 
   [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./aluraplus/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/aluraplus/)
 
+   </td>
+  </tr>
+
+  <tr>
+    <td>Jornada de Viagens</td>
+    <td>
+
+  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./jornada-viagens/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/jornada-viagens/)
+
+   </td>
+  </tr>
+
+  <tr>
+    <td>Pesquisa Culturama</td>
+    <td>
+
+  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./pesquisa-culturama/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/pesquisa-culturama/)
+
+   </td>
+  </tr>
+
+  <tr>
+    <td>Tecboard - Landing Page</td>
+    <td>
+
+  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./tecboard/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/tecboard/)
+
+   </td>
+  </tr>
+
+</table>
+
+### HTML | CSS | Javascript
+
+<table>
+  <tr>
+    <th style= "font-weight: bold;">Project</th>
+    <th style= "font-weight: bold;">Links</th>
+  </tr>
+
+
+  <tr>
+    <td>Alura Dev</td>
+    <td>
+    
+  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./aluradev/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/aluradev/)
+  
+   </td>
+  </tr>
+
+  <tr>
+    <td>Alura Games</td>
+    <td>
+    
+  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./aluragames/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/aluragames/)
+  
    </td>
   </tr>
 
@@ -101,15 +146,6 @@ In this category, you will find projects I developed during courses I completed 
   </tr>
 
   <tr>
-    <td>Jornada de Viagens</td>
-    <td>
-
-  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./jornada-viagens/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/jornada-viagens/)
-
-   </td>
-  </tr>
-
-  <tr>
     <td>Numero Secreto Dinâmico</td>
     <td>
 
@@ -119,28 +155,10 @@ In this category, you will find projects I developed during courses I completed 
   </tr>
 
   <tr>
-    <td>Pesquisa Culturama</td>
-    <td>
-
-  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./pesquisa-culturama/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/pesquisa-culturama/)
-
-   </td>
-  </tr>
-
-  <tr>
     <td>Sorteador de Números</td>
     <td>
 
   [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./sorteador-numeros/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/sorteador-numeros/)
-
-   </td>
-  </tr>
-
-  <tr>
-    <td>Tecboard - Landing Page</td>
-    <td>
-
-  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./tecboard/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/alura/tecboard/)
 
    </td>
   </tr>
