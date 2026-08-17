@@ -113,7 +113,7 @@ h2 {
   font-weight: 600;
   padding: 15px;
   text-align: center;
-  width: 100%;
+  min-width: 15rem;
 }
 
 a {
@@ -124,7 +124,7 @@ a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
   body {
     padding: 0;
   }
@@ -148,7 +148,7 @@ a {
   }
 
   .resume {
-    max-width: 515px;
+    max-width: 32.188rem;
   }
 
   .price {
