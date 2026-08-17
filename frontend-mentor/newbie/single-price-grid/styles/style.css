@@ -28,9 +28,12 @@ body {
   padding: 3.5rem 0;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
 section {
-  display: grid;
-  place-content: center;
   width: min(100% - 2rem, 327px);
 }
 
@@ -127,8 +130,9 @@ a {
   }
 
   section {
-    min-width: 43.75rem;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    min-width: 43.75rem;
   }
 
   article {
