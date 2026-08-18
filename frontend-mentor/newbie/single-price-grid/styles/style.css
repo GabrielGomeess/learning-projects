@@ -155,6 +155,11 @@ a {
     border-radius: 0 0 0 8px;
   }
 
+  .btn-sign:hover {
+    border: 1px solid var(--white);
+    cursor: pointer;
+  }
+
   .about {
     border-radius: 0 0 8px 0;
   }
