@@ -19,6 +19,16 @@ In this repository, you will find solutions I developed for Frontend Mentor chal
   </tr>
 
   <tr>
+    <td>Article Preview Component</td>
+    <td>
+    
+  [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](./newbie/article-prevcomponent/) ° [![Live](https://img.shields.io/badge/Live-00C853?style=flat-square&logo=githubpages&logoColor=white)](https://gabrielgomeess.github.io/learning-projects/frontend-mentor/newbie/article-prevcomponent/)
+  
+   </td>
+  </tr>
+
+
+  <tr>
     <td>Blog Preview Card</td>
     <td>
     
