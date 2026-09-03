@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root { 
+    --desaturaded-dark-blue: hsl(214, 17%, 51%);
+    --grayish-blue: hsl(212, 23%, 69%);
+    --grayish-light-blue: hsl(210, 46%, 95%);
+    --grayish-dark-blue: hsl(217, 19%, 35%);
+
+    --font: "Manrope", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--grayish-light-blue);
+    font-family: var(--font);
+    font-size: 15px;
+    min-height: 100dvh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: min(100% - 2rem, 327px);
+}
+
+.drawers-img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+article {
+    padding: 2.5rem 2rem 1rem;
+}
+
+h1 {
+    color: var(--grayish-dark-blue);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.description {
+    margin: 1rem 0;
+    color: var(--desaturaded-dark-blue);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container-profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar-img {
+    display: block;
+    border-radius: 50px;
+    object-fit: cover;
+    width: 48px;
+}
+
+.name-prof {
+    color: var(--grayish-dark-blue);
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.date-prof{
+    color: var(--grayish-blue);
+}
+
+#share-btn {
+    border: none;
+    border-radius: 50px;
+    margin-left: auto;   
+    padding: 10px;
+}
