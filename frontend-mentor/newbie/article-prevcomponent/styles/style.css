@@ -21,7 +21,6 @@ body {
   background-color: var(--grayish-light-blue);
   font-family: var(--font);
   font-size: 0.938rem;
-  min-height: 100dvh;
 }
 
 main {
